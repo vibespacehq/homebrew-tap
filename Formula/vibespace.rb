@@ -1,26 +1,26 @@
 class Vibespace < Formula
   desc "Multi-agent AI stateful runtime environments"
   homepage "https://github.com/vibespacehq/vibespace"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.0/vibespace-v0.5.0-darwin-arm64.tar.gz"
-      sha256 "20aaba6193733bc3a9382ba0ec67888d2b7a85543956034b8a997c29fe2e67f3"
+      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.1/vibespace-v0.5.1-darwin-arm64.tar.gz"
+      sha256 "51df5a631cc4957e78f783d17d3d05b09d68250ddd92f40d4d9346fe7b493f75"
     else
-      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.0/vibespace-v0.5.0-darwin-amd64.tar.gz"
-      sha256 "d0c0190e3e82e3d49b97bc9a9bf885f3ebc056bce5f0bd47e4df8a4fec220851"
+      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.1/vibespace-v0.5.1-darwin-amd64.tar.gz"
+      sha256 "b2484e2000a070cf8460ce981b6c15ad55d84b85ccb9b322a218555db111e0c2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.0/vibespace-v0.5.0-linux-arm64.tar.gz"
-      sha256 "a2e52c711c54a2d03cee04f43c103b63d70ee2d0aa8dfdbc05693511e1a64d96"
+      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.1/vibespace-v0.5.1-linux-arm64.tar.gz"
+      sha256 "8cfb2fbc293eb53c634433320260cb49adbb6d9553c2d6a355839e59bd77ac5c"
     else
-      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.0/vibespace-v0.5.0-linux-amd64.tar.gz"
-      sha256 "1704023136d4c1c46a85269bc902973b94bad512ae099505c44db3620726b183"
+      url "https://github.com/vibespacehq/vibespace/releases/download/v0.5.1/vibespace-v0.5.1-linux-amd64.tar.gz"
+      sha256 "1e5d8e616e4a958b8bad7cc8d29473db664b954ad0bec48816dc1f3d6d7afe9a"
     end
   end
 
